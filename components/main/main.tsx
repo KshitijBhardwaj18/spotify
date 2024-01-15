@@ -1,4 +1,5 @@
-import NavBar from "./components/navbar.tsx"
+import Navbar from "./components/navbar/navbar"
+import Tab from "./components/tab/page";
 
 interface mainProps{
 
@@ -6,8 +7,9 @@ interface mainProps{
 
 const Main: React.FC<mainProps> = () => {
     return ( 
-        <div className="flex felx row w-full">
-            <NavBar/>
+        <div className="flex flex-col w-full">
+            <Navbar/>
+            <Tab/>
             
         </div>
      );
