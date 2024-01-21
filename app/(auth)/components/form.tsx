@@ -98,8 +98,9 @@ const AuthForm = () => {
                 </FormItem>
               )}
             />
-            <div className="pt-3">
+            <div className="pt-3 flex felx-row gap-2">
             <Button  type="submit">Sign Up</Button>
+            <Button  type="submit">Sign In</Button>
             </div>
           </form>
         </Form>
