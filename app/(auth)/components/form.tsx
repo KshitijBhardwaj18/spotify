@@ -59,7 +59,7 @@ const AuthForm = () => {
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Username</FormLabel>
+                  <FormLabel className="text-white">Email</FormLabel>
                   <FormControl>
                     <Input className="bg-[#181918] border-0"  placeholder="Email" {...field} />
                   </FormControl>
@@ -71,10 +71,10 @@ const AuthForm = () => {
 
             <FormField
               control={form.control}
-              name="password"
+              name="confirmPassword"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Username</FormLabel>
+                  <FormLabel className="text-white">Password</FormLabel>
                   <FormControl>
                     <Input className="bg-[#181918] border-0"  placeholder="Password" {...field} />
                   </FormControl>
@@ -89,7 +89,7 @@ const AuthForm = () => {
               name="password"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Username</FormLabel>
+                  <FormLabel className="text-white">Confirm Password</FormLabel>
                   <FormControl>
                     <Input className="bg-[#181918] border-0" placeholder="Password" {...field} />
                   </FormControl>
