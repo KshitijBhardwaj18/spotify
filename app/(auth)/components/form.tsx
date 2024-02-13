@@ -70,6 +70,7 @@ const AuthForm = () => {
             />
 
             <FormField
+            //hw=hjcg
               control={form.control}
               name="confirmPassword"
               render={({ field }) => (
